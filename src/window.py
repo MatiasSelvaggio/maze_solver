@@ -4,7 +4,7 @@ class Window():
     def __init__(self, width, height):
         self.__root = Tk()
 
-        self.__root.title("My Tkinter Window")
+        self.__root.title("Maze solver Using DFS")
 
         self.__root.geometry(f"{width}x{height}")
 
